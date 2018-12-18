@@ -1,0 +1,28 @@
+{
+  "name": "node-graphql-reactjs",
+  "version": "1.0.0",
+  "description": "learning nodejs graphql and reactjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "graphql",
+    "reactjs"
+  ],
+  "author": "quangnc",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.3.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9"
+  }
+}
